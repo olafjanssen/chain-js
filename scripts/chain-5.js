@@ -39,7 +39,7 @@ var chain = (function () {
 
         /**
          * Function to be called when the user's chain animation has finished and the next link in the chain should start.
-         * Publishes a messages on the channel with the updates position.
+         * Publishes a messages on the channel with the updated position.
          */
         done: function () {
             channel.send('p' + (position + 1));
